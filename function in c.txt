@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int printsq(int n);   
+
+int main(){
+  int n;
+  printf("enter number");
+  scanf("%d",&n);
+
+  printsq(n);        
+  
+  return 0;
+}
+
+int printsq(int n){   
+  printf("%d",n*n);
+} 
